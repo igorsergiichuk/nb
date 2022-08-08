@@ -10,7 +10,7 @@ export const Tab = (props) => {
         const { date, events } = record;
 
         return (
-          <div key={uuidv4()}>
+          <div key={uuidv4()} className="tab">
             <p key={uuidv4()}>{date}</p>
             <EventsContainer events={events} key={uuidv4()} />
           </div>

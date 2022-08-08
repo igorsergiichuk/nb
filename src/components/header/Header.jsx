@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <header>
+    <header className="header">
       <a href="/">NB</a>
     </header>
   );

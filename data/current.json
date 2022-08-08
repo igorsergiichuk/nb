@@ -4,6 +4,7 @@
       "date": "today",
       "events": [
         {
+          "id": 0,
           "isFinished": false,
           "isStarred": false,
           "tags": [
@@ -24,6 +25,7 @@
           ]
         },
         {
+          "id": 1,
           "isFinished": false,
           "isStarred": false,
           "tags": [

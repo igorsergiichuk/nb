@@ -27,12 +27,12 @@ export const Body = () => {
   };
 
   return (
-    <div>
-      <div>
-        <button id="finished" onClick={(e) => setSelectedTab(e)}>
+    <div className="body">
+      <div className="body-buttons-container">
+        <button  className="button" id="finished" onClick={(e) => setSelectedTab(e)}>
           Finished
         </button>
-        <button id="current" onClick={(e) => setSelectedTab(e)}>
+        <button  className="button" id="current" onClick={(e) => setSelectedTab(e)}>
           Current
         </button>
       </div>

@@ -1,15 +1,18 @@
 import { render } from 'react-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Header } from './components/header/Header';
-import { TopNavBar } from './components/top-nav-bar/TopNavBar';
-import { Body } from './components/body/Body';
+import { Home } from './components/home/Home';
+import { Details } from './components/details/Details'
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <TopNavBar />
-      <Body />
-    </div>
+      <BrowserRouter>
+          <Header />
+          <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/details/:id" element={<Details />} />
+          </Routes>
+      </BrowserRouter>
   );
 };
 
