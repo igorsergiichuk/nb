@@ -1,0 +1,89 @@
+{
+  "data": [
+      {
+        "date": "01.08.2020",
+        "events": [
+          {
+            "isFinished": true,
+            "isStarred": false,
+            "tags": [
+              "tag1",
+              "tag2",
+              "tag3"
+            ],
+            "title": "Title 1",
+            "description": [
+              {
+                "date": "01.08.2020",
+                "text": "Finished"
+              },
+              {
+                "date": "20.07.2020",
+                "text": "Some note"
+              },
+              {
+                "date": "19.07.2020",
+                "text": "Started"
+              }
+            ]
+          },
+          {
+            "isFinished": true,
+            "isStarred": true,
+            "tags": [
+              "tag4",
+              "tag2",
+              "tag8"
+            ],
+            "title": "Title 2",
+            "description": [
+              {
+                "date": "01.08.2020",
+                "text": "Finished"
+              },
+              {
+                "date": "28.07.2020",
+                "text": "Title 2 note"
+              },
+              {
+                "date": "25.07.2020",
+                "text": "Started"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "02.08.2020",
+        "events": [
+          {
+            "isFinished": true,
+            "isStarred": true,
+            "tags": [],
+            "title": "Title M",
+            "description": [
+              {
+                "date": "02.08.2020",
+                "text": "Finished"
+              }
+            ]
+          },
+          {
+            "isFinished": true,
+            "isStarred": false,
+            "tags": [
+              "tag4",
+              "tag8"
+            ],
+            "title": "Title B",
+            "description": [
+              {
+                "date": "02.08.2020",
+                "text": "Lorem Ipsum Dolores"
+              }
+            ]
+          }
+        ]
+      }
+  ]
+}

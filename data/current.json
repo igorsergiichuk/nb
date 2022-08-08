@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "date": "today",
+      "events": [
+        {
+          "isFinished": false,
+          "isStarred": false,
+          "tags": [
+            "tag1",
+            "tag2",
+            "tag3"
+          ],
+          "title": "Title in progress 1",
+          "description": [
+            {
+              "date": "20.07.2020",
+              "text": "Some note"
+            },
+            {
+              "date": "19.07.2020",
+              "text": "Started"
+            }
+          ]
+        },
+        {
+          "isFinished": false,
+          "isStarred": false,
+          "tags": [
+            "tag4"
+          ],
+          "title": "Title in Progress 2",
+          "description": [
+            {
+              "date": "25.07.2020",
+              "text": "Started"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

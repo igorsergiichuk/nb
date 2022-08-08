@@ -1,0 +1,38 @@
+{
+  "name": "nb",
+  "version": "1.0.0",
+  "description": "Tasks tracking tool. It's not about to do. It's about what's done",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write 'src/**/*.{js,jsx}'",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorsergiichuk/nb.git"
+  },
+  "keywords": [],
+  "author": "Igor Sergiichuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorsergiichuk/nb/issues"
+  },
+  "homepage": "https://github.com/igorsergiichuk/nb#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "parcel": "^2.2.1",
+    "prettier": "2.7.1",
+    "process": "^0.11.10",
+    "util": "^0.12.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "uuidv4": "^6.2.13"
+  },
+  "browserslist": [
+    "last 2 Chrome versions, last 2 Firefox versions, last 2 Edge versions, last 2 Safari versions"
+  ]
+}
